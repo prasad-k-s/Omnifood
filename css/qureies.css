@@ -14,8 +14,9 @@
 }
 /* BELOW 1200px (Landscape Tablets) */
 @media (max-width: 75em) {
+  /* This is will make the entire page smalller not images because it is sized using percentages. */
   html {
-    /* 9/16  */
+    /* 9px /16px = 56.25%  */
     font-size: 56.25%;
   }
   .grid {
@@ -47,7 +48,7 @@
 /* BELOW 944px (Tablets) */
 @media (max-width: 59em) {
   html {
-    /* 8/16 px */
+    /* 8px/16px = 50% */
     font-size: 50%;
   }
   .hero {
@@ -119,11 +120,11 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
-    /* 1 Hide it */
+    /* 1 Hide it visually */
     opacity: 0;
-    /*  2 Unaccessible */
+    /*  2 Unaccessible to keyboard keys and mouse */
     pointer-events: none;
-    /* Hide from screen readers */
+    /*  3 Hide it from screen readers */
     visibility: hidden;
   }
 
