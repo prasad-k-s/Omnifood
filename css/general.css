@@ -105,6 +105,19 @@ body {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
 }
+
+/*---- HELPER CLASSES---------------- */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+.margin-bootom-md {
+  margin-bottom: 1.8rem !important;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
 }
