@@ -410,9 +410,11 @@
   color: #333;
   font-weight: bold;
   top: 5%;
-  right: -8.5%;
+  right: -22%;
   background-color: #ffd43b;
   padding: 0.8rem 3.2rem;
+  width: 20rem;
+  text-align: center;
   transform: rotate(45deg);
 }
 .plan-details {

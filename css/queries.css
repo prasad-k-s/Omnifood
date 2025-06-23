@@ -129,3 +129,147 @@
     display: none;
   }
 }
+/* BELOW  830px (Phones)*/
+@media only screen and (max-width: 51.875rem) {
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -26%;
+  }
+}
+/* BELOW  790px*/
+@media only screen and (max-width: 48rem) {
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -31%;
+  }
+}
+
+/* BELOW  700px (Smaller tablets)*/
+@media only screen and (max-width: 44rem) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1 /-1;
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -26%;
+  }
+}
+
+/* BELOW  590px*/
+@media only screen and (max-width: 36.875rem) {
+  .pricing-plan--complete::after {
+    top: 4%;
+    right: -32%;
+  }
+}
+
+/* BELOW  544px (Phones)*/
+@media only screen and (max-width: 34rem) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+  .hero-img {
+    width: 80%;
+  }
+  .logos img {
+    height: 1.2rem;
+  }
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+  .pricing-plan--complete::after {
+    right: -15%;
+    top: 6%;
+  }
+}
+/* BELOW  362px (Phones)*/
+@media only screen and (max-width: 22.625rem) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 2.2rem;
+  }
+  .pricing-plan--complete::after {
+    right: -22%;
+    top: 6%;
+  }
+}
+/* BELOW  350px*/
+@media only screen and (max-width: 21.875rem) {
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -27%;
+  }
+}
+/* BELOW  300px*/
+@media only screen and (max-width: 18.75rem) {
+  .pricing-plan--complete::after {
+    top: 4%;
+    right: -33%;
+  }
+}
