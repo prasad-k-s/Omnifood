@@ -52,7 +52,6 @@ const sectionHero = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
   function (entries) {
     const [entry] = entries;
-    console.log(entry);
     if (!entry.isIntersecting) {
       header.classList.add("sticky");
     } else {
