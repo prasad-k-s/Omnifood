@@ -6,10 +6,12 @@ const btnNav = document.querySelector(".btn-mobile-nav");
 
 const header = document.querySelector(".header");
 
+//Toggle mobile navigation
 btnNav.addEventListener("click", () => {
   header.classList.toggle("nav-open");
 });
 
+//Smooth scrolling
 function smoothScrollTo(selector) {
   const element = document.querySelector(selector);
   if (!element) return;
@@ -42,3 +44,25 @@ btns.forEach((btn) => {
     else smoothScrollTo(link);
   });
 });
+
+//Sticky navigation
+
+const sectionHero = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const [entry] = entries;
+    console.log(entry);
+    if (!entry.isIntersecting) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHero);
