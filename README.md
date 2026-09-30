@@ -6,8 +6,7 @@ A fully responsive landing page for Omnifood, a fictional AI-powered meal subscr
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**🔗 Live demo:** [
-prasad-omnifood.netlify.app](#)
+**🔗 Live demo:** [https://prasad-omnifood.netlify.app/](#)
 
 ---
 
